@@ -1,6 +1,3 @@
 # tb-bsd-bayu
-TB BSD. Tes Koran
-
-########################################
-TUGAS BESAR BASIS DATA
-########################################
+Tugas Besar Basis Data
+Tes Koran
