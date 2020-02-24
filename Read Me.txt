@@ -1,0 +1,8 @@
+Petunjuk:
+#buka phpmyadmin
+#buat database baru, beri nama 'tb_bayu', tanpa petik
+#import database yang ada di folder database
+#untuk menyetting aplikasi, buka file 'const.php' yang ada di folder config
+#ganti isi DB_USER menjadi "root" dan kosongkan isi DB_PASS
+#ganti juga isi URL_ROOT menjadi lokasi URI anda
+#jalankan

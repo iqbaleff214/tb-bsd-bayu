@@ -1,0 +1,74 @@
+/* halaman pertama */
+body {
+    margin: 0px;
+}
+
+.back {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(29, 29, 29, 0.651);
+}
+
+.mulai {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: height ease-in-out .5s;
+}
+
+.mulai>h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.logMenu {
+    background-color: rgb(250, 250, 250);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.logMenu > form > p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* nav */
+.topnav {
+    overflow: auto;
+    padding: 30px 20px;
+}
+
+.topnav-right {
+  float: right;
+}
+
+/* main */
+span#nilai {
+    font-size: 48px;
+    color: maroon;
+    text-align: center;
+}
+
+.modal-mod {
+    box-shadow: 10px 10px 0px 2000px rgba(0,0,0,0.5);
+    width: 800px;
+    height: 300px;
+    z-index: 5;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media print {
+    .hilang, .hilang-print, .hilang-cok {
+        display: none;
+    }
+}
